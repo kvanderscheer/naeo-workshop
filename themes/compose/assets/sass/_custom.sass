@@ -1,0 +1,61 @@
+// add customs styles and general overrides here
+// due to the cascading nature of css, if you try to override theme css variables in this file, those changes will not apply. Instead, override css variables in the `override.sass` file
+// we recommend not editing this file directly. Instead, create an `assets/sass/_custom.sass` file at the root level of your site.
+// if you edit this file directly, you will have to resolve git conflicts when and if you decide to pull changes we make on the theme
+
+.text-primary 
+    color: #5AB51E !important
+
+.img-fluid
+  width: 700px
+  
+.shadow
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important
+
+.list-inline
+  padding-left: none!important
+  list-style: none !important
+
+.list-inline-item
+  display: inline-block
+  margin-right: 0.5rem
+
+.difficulty-header-container
+  padding-left: 1.1rem
+  display: flex
+  position: relative
+
+.difficulty-header 
+    display: flex
+    position: relative
+    flex-wrap: wrap
+    -webkit-box-align: center
+    align-items: flex-start
+
+.difficulty-header-item 
+    display: block
+    margin-right: 32px
+
+.difficulty-header strong 
+    margin-bottom: unset
+    display: block
+
+.difficulty-header span 
+    margin-bottom: unset
+    display: block
+
+.flex 
+  display: flex
+
+code
+  &.noClass
+    padding: 2px
+    color: #fff
+    font-weight: 900
+    background-color: #ec7211
+    border-radius: 3px
+
+.highlight
+  code
+    &.noClass
+      all: unset

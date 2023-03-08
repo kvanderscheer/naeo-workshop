@@ -1,0 +1,17 @@
+#  menu items
+
+[[main]]
+  name = "Downloads"
+  weight = 1
+  url = "downloads/"
+
+[[main]]
+  name = "Resources"
+  weight = 2
+  url = "resources/"
+
+##[[main]]
+## name = "Docs"
+##  weight = 2
+##  url = "docs/"
+

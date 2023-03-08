@@ -1,0 +1,16 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<!-- {{/*
+Usage: {{% difficulty_header "difficulty" "time estimate" %}}
+*/}}-->
+<div class="difficulty-header-container">
+    <div class="difficulty-header">
+        <div class="difficulty-header-item">
+            <strong>Difficulty</strong>
+            <span>{{ .Get 0 | markdownify }}</span>
+        </div>
+        <div class="difficulty-header-item">
+            <strong>Time Estimate</strong>
+            <span>{{ .Get 1 | markdownify }}</span>
+        </div>
+    </div>
+</div>

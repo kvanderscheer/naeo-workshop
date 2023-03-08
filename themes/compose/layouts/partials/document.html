@@ -1,0 +1,32 @@
+<div class="grid-auto">
+  {{- partial "sidebar" . }}
+  <main class="content">
+    {{ if .Params.Image }}
+    <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="shadow img-fluid w-100 mb-4">
+    {{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.Author }}
+    <ul class="list-inline mb-1">
+      <li class="list-inline-item"><i class="ti-pencil-alt text-primary mr-2"></i> by {{ .Params.Author }}</li>
+      <li class="list-inline-item"><i class="ti-calendar text-primary mr-2"></i>
+        {{ .PublishDate.Format "02 Jan, 2006" }}</li>
+    </ul>
+    {{ end }}
+    {{ if .Params.Difficulty }}
+    <div class="difficulty-header-container">
+      <div class="difficulty-header mb-1">
+          <div class="difficulty-header-item">
+            <div class="flex"><i class="ti-shield text-primary mr-2"></i><strong>&nbsp;Difficulty</strong></div>
+              <span>{{ .Params.Difficulty | markdownify }}</span>
+          </div>
+          <div class="difficulty-header-item">
+              <div class="flex"><i class="ti-timer text-primary mr-2"></i><strong>&nbsp;Time Estimate</strong></div>
+              <span>{{ .Params.TimeEstimate | markdownify }}</span>
+          </div>
+        </div>
+    </div>    
+    {{ end }}
+    {{- .Content }}
+    {{ partial "pager" . }}
+  </main>
+</div>

@@ -1,0 +1,9 @@
+### Mac
+.DS_Store
+
+### Hugo
+/public/
+/resources/_gen/
+nodeclear_modules
+dist
+tmp
