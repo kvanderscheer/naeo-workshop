@@ -1,4 +1,4 @@
-baseURL = "https://naeo.vanderscheer.us/"
+baseURL = "https://naeo2023.vanderscheer.us/"
 title = "NAEO 2023 Advanced IS/SQL Workshop"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
