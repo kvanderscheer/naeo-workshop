@@ -1,17 +1,16 @@
 #  menu items
 
 [[main]]
-  name = "Downloads"
+  name = "Demo API"
   weight = 1
+  url = "demo-api/"
+
+[[main]]
+  name = "Downloads"
+  weight = 2
   url = "downloads/"
 
 [[main]]
   name = "Resources"
-  weight = 2
+  weight = 3
   url = "resources/"
-
-##[[main]]
-## name = "Docs"
-##  weight = 2
-##  url = "docs/"
-

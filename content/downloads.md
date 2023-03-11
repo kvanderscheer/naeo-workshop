@@ -11,11 +11,11 @@ draft: false
 
 ## Scripts
 
-* [Example 1: Basic REST Operations](/scripts/example1.iif)
-* [Example 2: NAEO 2023 Conference Event Calendar Demo API](/scripts/example2.iif)
-* [Example 3: A Simple Chatbot](/scripts/example3.iif)
-* [Example 4: Address Validations](/scripts/example4.iif)
-* [Download All](/scripts/all-scripts.zip)
+* [Example 1: Basic REST Operations](/scripts/Client1000_Main_MsgScript.iif)
+* [Example 2: NAEO 2023 Conference Event Calendar Demo API](/scripts/Client1001_Main_MsgScript.iif)
+* [Example 3: A Simple Chatbot](/scripts/Client1002_Main_MsgScript.iif)
+* [Example 4: Address Validations](/scripts/Client1003_Main_MsgScript.iif)
+* [Download All](/scripts/all_scripts.zip)
 
 
 {{< button "/" "Home" "mt-2 mb-1" >}}
